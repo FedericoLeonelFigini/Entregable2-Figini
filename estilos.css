@@ -1,24 +1,24 @@
-
+/*Es la parte del HTML donde va todo lo que se ve en la página*/
 body {
   font-family: Arial, sans-serif;
   background-color: #ffeef4; 
   color: #333;
 }
 
-
+/*Es la parte de arriba de la página*/
 header {
   background-color: #ffc0cb;
   padding: 15px 0;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-
+/*se usan para mostrar un menú de navegación con varias opciones*/
 nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
   gap: 20px;
 }
-
+/*se usan para mostrar un menú de navegación con varias opciones*/
 nav a {
   text-decoration: none;
   color: white;
@@ -27,22 +27,22 @@ nav a {
   border-radius: 6px;
   transition: background-color 0.3s ease;
 }
-
+/*Sirve para cambiar el color o estilo del enlace cuando el usuario lo señala con el cursor.*/
 nav a:hover {
   background-color: #f48fb1;
 }
 
-
+/*Es la parte principal del contenido de la página.*/
 main {
   text-align: center;
   padding: 40px 20px;
 }
-
+/*Se refiere al título principal (<h1>) que está dentro del <main>.*/
 main h1 {
   font-size: 2em;
   color: #d81b60;
 }
-
+/*<footer>: Es el pie de página*/
 footer {
   margin-top: 40px;
   text-align: center;
